@@ -106,13 +106,15 @@ The top 3 accuracy scores for 12 unbalanced genre classes :
 
 **Model**  | **Scores**
 ------------- | -------------
- Random Forest  | 0.64
- SVM  | 0.61
- KNN | 0.58
+Random Forest  | 0.64
+SVM  | 0.61
+KNN | 0.58
 
 Regarding the most important technical indicators, we are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators.
 
 ## Key learnings
+When dealing with audio features the high dimensionality of the extracted raw features limits the number of features that can be modelled on. Moreover this dimensionality requires reduction techniques to be employed limiting the variance these models can train on. Having a inaccurately tagged meta-data regarding a tracks genre will throw models off increasing false positives and negatives and reduces model accuracy. Equivilantly, having other established genres in dataset will also diminish model performance in a similar manner. The large class imbalance increases bias as machine learning classifiers tend to be more biased towards majority class, badly classifying minority classes. Music genres are subjective and derivations of each other
+
 
 
 
