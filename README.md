@@ -106,9 +106,9 @@ The top 3 accuracy scores for 12 unbalanced genre classes :
 
 **Model**  | **Scores**
 ------------- | -------------
-Random Forest  | 0.64
-SVM  | 0.61
-KNN | 0.58
+ Random Forest  | 0.64
+ SVM  | 0.61
+ KNN | 0.58
 
 Regarding the most important technical indicators, we are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators.
 
