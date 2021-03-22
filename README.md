@@ -46,10 +46,7 @@ My main objectives for this project were to:
   3. Classify sub-genres or styles
 
 ## Dataset
-FMA Dataset
-https://github.com/mdeff/fma/blob/f6a8faf7cbfffa967f40c37cf1fddba908696514/README.md
-
-I used publicly available data on [FMA](https://github.com/mdeff/fma). I downloaded the FMA medium zip file which includes:
+I used the publicly available data from [FMA](https://github.com/mdeff/fma) originally found on [ISMIR](http://ismir.net/resources/datasets/). I downloaded the FMA medium zip file which includes:
   - 16,000 tracks (22 GiB), mp3 format, 30s length
   - 16 genres Unbalanced Genres
 
