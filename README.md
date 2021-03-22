@@ -74,10 +74,10 @@ Since extracted features from Librosa are composed of high dimensional arrays we
 ## Methodology
 For the two different dimensionality reduction techniques the general methodologies for either approach is illustrated by the following flow process charts :
 
- ### Summary Statistics (SS)
+ ### 1. Summary Statistics (SS)
 <img src="https://user-images.githubusercontent.com/74214807/112047537-b926c300-8b4d-11eb-882f-32b5c51d6079.png" width="814" height="333" />
 
- ### Principal Component Analysis (PCA)
+ ### 2. Principal Component Analysis (PCA)
 <img src="https://user-images.githubusercontent.com/74214807/112047988-3ce0af80-8b4e-11eb-82d9-954df2b11628.png" width="814" height="351" />
 
 
