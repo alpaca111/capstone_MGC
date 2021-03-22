@@ -75,9 +75,17 @@ Since extracted features from Librosa are composed of high dimensional arrays we
 For the two different dimensionality reduction techniques the general methodologies for either approach is illustrated by the following flow process charts :
 
  ### 1. Summary Statistics (SS)
+  - After extracting the desired features, get summary statistics for each feature (mean, median, std, min, max, kurtosis, skew)
+  - Calculate each statistic on'b' a total of 'a' times for a given feature array with shape : (a , b) 
+  - For each track, store each statistic for a given feature in a dictionary (dictionary within dictionary)
+  - Model on summary statistics
 <img src="https://user-images.githubusercontent.com/74214807/112047537-b926c300-8b4d-11eb-882f-32b5c51d6079.png" width="814" height="333" />
 
  ### 2. Principal Component Analysis (PCA)
+  - Created a function which takes the ATS (amplitude spectogram, y) for each track_id
+  - Calculate the Decibel Scaled Spectogram, DB for each track_id
+  - Apply PCA (chose number of components such that total explained variance was 97%)
+  - Model on PCA components
 <img src="https://user-images.githubusercontent.com/74214807/112047988-3ce0af80-8b4e-11eb-82d9-954df2b11628.png" width="814" height="351" />
 
 
