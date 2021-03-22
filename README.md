@@ -73,6 +73,7 @@ Since extracted features from Librosa are composed of high dimensional arrays we
 
 ## Methodology
 For the two different dimensionality reduction techniques the general methodologies for either approach is illustrated by the following flow process charts :
+
 <img src="https://user-images.githubusercontent.com/74214807/112047537-b926c300-8b4d-11eb-882f-32b5c51d6079.png" width="543" height="222" />
 
 
