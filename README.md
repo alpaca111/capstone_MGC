@@ -18,8 +18,8 @@ Technical report: Report aimed for a technical audience. It contains a detailed 
  - Jupyter Notebook files (.ipynb)
    - 1.0 : [Dataset Inspection]()  (dataset_meta_data_inspection.ipynb)
    - 2.0 : Features
-    - [Feature inspection & Librosa]() (feature_inspection_librosa.ipynb)
-    - [Feature extraction]() (ATS_feature_extraction.ipynb)
+     - [Feature inspection & Librosa]() (feature_inspection_librosa.ipynb)
+     - [Feature extraction]() (ATS_feature_extraction.ipynb)
    - 3.0 : Methodology
       - [SS]() (method_1_SS.ipynb)
       - [PCA]() (method_2_PCA.ipynb)
