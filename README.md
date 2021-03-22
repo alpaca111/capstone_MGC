@@ -54,6 +54,22 @@ The FMA medium dataset is a very unbalanced dataset with Rock and Blues having a
 
 Ended up reducing to ~14,800 tracks, covering 12 genres (12 class problem)
 
+## Librosa
+Librosa is a python package for music and audio analysis. It provides the building blocks necessary to create music information retrieval systems. Includes capabilites for :
+ - Visualisation
+ - Audio Playback
+ - Feature Extraction (Spectral, Rhythm , Onset Detection, beats and tempo etc.) 
+
+Python package Librosa can be found [here](https://librosa.org/doc/latest/index.html)
+
+## Dimensionality reduction techniques
+Since extracted features from Librosa are composed of high dimensional arrays we cannot model on these as individual features due to limited processing power and disk space. Needed to process further with dimensionality reduction techniques. I employed the following approaches :
+ 1. Process extracted features with summary statistics (SS)
+ 2. Principal component analysis  on extracted Features (PCA)
+
+## Exploratory Data Analysis (EDA)
+![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+
 
 **Model  | Scores**
 ------------- | -------------
