@@ -104,7 +104,7 @@ For the multiclass classification problem I selected the following classifiers :
 After hyperparameter tuning with various GridSearches, the model with the highest CV score was found to be a Random Forest classifier. 
 The top 3 accuracy scores for 12 unbalanced genre classes :
 
-**Model  | Scores**
+**Model**  | **Scores**
 ------------- | -------------
 Random Forest  | 0.64
 SVM  | 0.61
