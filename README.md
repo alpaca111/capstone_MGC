@@ -20,12 +20,11 @@ Technical report: Report aimed for a technical audience. It contains a detailed 
    - 2.0 : Features
     - [Feature inspection & Librosa]() (feature_inspection_librosa.ipynb)
     - [Feature extraction]() (ATS_feature_extraction.ipynb)
-   - 3.0 : Features
-    - Methodology
+   - 3.0 : Methodology
       - [SS]() (method_1_SS.ipynb)
       - [PCA]() (method_2_PCA.ipynb)
       - [Collating genres]() (folders 51 - 100) collate_genre_meta_into_df_51_100.ipynb
-   - 4.0 : Features
+   - 4.0 : EDA
       - [SS]() (EDA_1_SS.ipynb)
       - [PCA]() (EDA_2_PCA.ipynb)
    - 5.0 : Modelling
@@ -71,9 +70,11 @@ Since extracted features from Librosa are composed of high dimensional arrays we
 ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 
+
 **Model  | Scores**
 ------------- | -------------
 Random Forest  | 0.64
 SVM  | 0.61
 KNN | 0.58
+
 
