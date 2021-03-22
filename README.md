@@ -67,8 +67,8 @@ Since extracted features from Librosa are composed of high dimensional arrays we
  2. Principal component analysis  on extracted Features (PCA)
 
 ## Exploratory Data Analysis (EDA)
-![EDA 1 ](https://user-images.githubusercontent.com/74214807/112044559-3ea87400-8b4a-11eb-9c40-1dd8aa46238f.jpg)
-![EDA2](https://user-images.githubusercontent.com/74214807/112044605-4831dc00-8b4a-11eb-87da-ce000441dc1d.jpg)
+![EDA1](https://user-images.githubusercontent.com/74214807/112045733-782daf00-8b4b-11eb-9822-fda8ff104ef9.png)
+![EDA2](https://user-images.githubusercontent.com/74214807/112045710-7368fb00-8b4b-11eb-8039-b367239e3b2e.png)
 
 
 
@@ -78,14 +78,5 @@ Since extracted features from Librosa are composed of high dimensional arrays we
 Random Forest  | 0.64
 SVM  | 0.61
 KNN | 0.58
-
-![furtherEDA2](https://user-images.githubusercontent.com/74214807/112044582-449e5500-8b4a-11eb-8fa5-b1c20b6eed3e.jpg)
-![furtherEDA1](https://user-images.githubusercontent.com/74214807/112044586-45cf8200-8b4a-11eb-9dec-4b054bdfe60e.jpg)
-![results1](https://user-images.githubusercontent.com/74214807/112044591-46681880-8b4a-11eb-9e7b-67062ccc9e75.jpg)
-![method2](https://user-images.githubusercontent.com/74214807/112044594-4700af00-8b4a-11eb-8109-af871efde358.jpg)
-![method1](https://user-images.githubusercontent.com/74214807/112044597-4700af00-8b4a-11eb-9cab-3e00a1628700.jpg)
-![EDA5](https://user-images.githubusercontent.com/74214807/112044600-47994580-8b4a-11eb-89b0-a4914d9c6233.jpg)
-![EDA4](https://user-images.githubusercontent.com/74214807/112044602-47994580-8b4a-11eb-8cae-c4a291f7dd21.jpg)
-![EDA3](https://user-images.githubusercontent.com/74214807/112044603-4831dc00-8b4a-11eb-8308-0abe3e760fe4.jpg)
 
 
