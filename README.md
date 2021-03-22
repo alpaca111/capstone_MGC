@@ -6,7 +6,7 @@ Through my analysis of the Free Music Archive audio files and use of the Python 
 
 I performed various statistical and machine learning models for the classification problem including one hyperparameter grid search on AWS. The model that generalises best predicted the music genre with a 65% accuracy compared to the baseline of 30%. Key insights and limitations in accuracy were found, such as increase of bias from class imbalance, inaccurate tagging of metadata for model training, limit of explained variance due to required dimensionality reduction.
 
-Future improvements and general limitation are summarised below.
+Future improvements and general limitations have been summarised below.
 ## Files in this Repository
 Presentation slides: Used to present the project, findings, limitations and future improvements to a non-technical audience.
 Technical report: Report aimed for a technical audience. It contains a detailed explanation of the extraction methods employed and general methodology, exploratory data analysis, preprocessing steps, modelling stage, findings,  limitations and improvements for the future.
@@ -72,7 +72,7 @@ Since extracted features from Librosa are composed of high dimensional arrays we
 
 
 ## Methodology
-For the two different dimensionality reduction techniques the general methodologies for either approach is illustrated by the following flow process charts :
+Given both dimensionality reduction techniques employed I have summarised the general methodologies for either approach below :
 
  ### 1. Summary Statistics (SS)
   - After extracting the desired features, get summary statistics for each feature (mean, median, std, min, max, kurtosis, skew)
@@ -88,11 +88,33 @@ For the two different dimensionality reduction techniques the general methodolog
   - Model on PCA components
 <img src="https://user-images.githubusercontent.com/74214807/112047988-3ce0af80-8b4e-11eb-82d9-954df2b11628.png" width="814" height="351" />
 
+## Modelling
+For the multiclass classification problem I selected the following classifiers :
+ - Random Forest
+ - SVM
+ - KNN
+ - Logistic Regression
+ - Decision Tree
+ - Adaboost (Decision Tree as base estimator)
+ - Naive Bayes
+ - Bagging
+
+## Results
+
+After hyperparameter tuning with various GridSearches, the model with the highest CV score was found to be a Random Forest classifier. 
+The top 3 accuracy scores for 12 unbalanced genre classes :
 
 **Model  | Scores**
 ------------- | -------------
 Random Forest  | 0.64
 SVM  | 0.61
 KNN | 0.58
+
+Regarding the most important technical indicators, we are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators.
+
+## Key learnings
+
+
+
 
 
