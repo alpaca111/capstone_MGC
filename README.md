@@ -127,7 +127,7 @@ As seen below these 'H', 'P' and spectral features seem to distinguish certain g
 Labeling music into genres is arbitrary, and the line between one genre and another is more often than not, blurred. As if it has been formed from several ‘flavours’ of genres, with a set of sub-genres and a type of ‘style’. Genre classification can be quite subjective and not so simple as classifying a colour, with a certain measurable wavelength. However, there are perceptual criteria that are related to instrumentation, structure of the rhythm, harmonics and texture of the music that can play a role in characterising a particular genre. Methods for automated genre classification would add value to many music information retrival systems, music apps and music streaming platforms of which many are still manually labelled.
 
 ## Dependencies
-See the requirements.txt file specific dependencies
+See the [requirements.txt](https://github.com/alpaca111/capstone_MGC/blob/main/dependencies.txt) file for specific dependencies.
 
  NumPy\
  Pandas\
