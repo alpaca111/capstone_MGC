@@ -110,7 +110,7 @@ Random Forest  | 0.64
 SVM  | 0.61
 KNN | 0.58
 
-Regarding the most important features, we are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators. The most reaccuring important features at the top of the list were 'H', 'P', 'melspec' and 'contrast' which denote the harmonic and or percussive elements of the track as well the dynamic of the spectral range and their difference. These are some of the most intuitive criterias that one could perceive objectively to distinguish between genres. (spectral peak, valley, and their difference in each frequency subband) 
+We are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators. The most reaccuring important features at the top of the list were 'H', 'P', 'melspec' and 'contrast' which denote the harmonic and or percussive elements of the track as well the dynamic of the spectral range and their difference. These are some of the most intuitive criterias that one could perceive objectively to distinguish between genres. (spectral peak, valley, and their difference in each frequency subband) 
 
 ## Key learnings
  - Audio features high dimensionality : When dealing with audio features the high dimensionality of the extracted raw features limits the number of features that can be modelled on. Moreover, the high dimensionality requires reduction techniques to be employed limiting the variance these models can train on. 
