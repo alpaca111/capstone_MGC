@@ -114,7 +114,7 @@ We are able to identify a handful of the most important ones but not to a highly
 
 As seen below these 'H', 'P' and spectral features seem to distinguish certain genres relatively well.
 
-<img src="https://user-images.githubusercontent.com/74214807/112135440-0ea2b480-8bce-11eb-99f3-769e9bdd7203.png" width="1039" height="543" />
+<img src="https://user-images.githubusercontent.com/74214807/112135440-0ea2b480-8bce-11eb-99f3-769e9bdd7203.png" width="831" height="434" />
 
 ## Key learnings
  - Audio features high dimensionality : When dealing with audio features the high dimensionality of the extracted raw features limits the number of features that can be modelled on. Moreover, the high dimensionality requires reduction techniques to be employed limiting the variance these models can train on. 
