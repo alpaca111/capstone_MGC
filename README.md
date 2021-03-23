@@ -67,9 +67,11 @@ Since extracted features from Librosa are composed of high dimensional arrays we
  2. Principal component analysis  on extracted Features (PCA)
 
 ## Exploratory Data Analysis (EDA)
+Some of the brief data analysis of classes and particular features shown here : 
 <img src="https://user-images.githubusercontent.com/74214807/112045733-782daf00-8b4b-11eb-9822-fda8ff104ef9.png" width="566" height="308" />
 <img src="https://user-images.githubusercontent.com/74214807/112045710-7368fb00-8b4b-11eb-8039-b367239e3b2e.png" width="685" height="358" />
 
+Full EDA for either method found here : [SS]() and [PCA]()
 
 ## Methodology
 Given both dimensionality reduction techniques employed I have summarised the general methodologies for either approach below :
