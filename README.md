@@ -36,7 +36,7 @@ Technical report: Report aimed for a technical audience. It contains a detailed 
       - [SS]() (unsupervised_learning_method_1_SS.ipynb)
       - [PCA]() (unsupervised_learning_method_2_PCA.ipynb)
 ## Problem statement
-Put very simply the main question I am asking is “ Is there a way to automate music genre classification?”. Ultimately having to manually assign genre is still currently how labels are assigned and is crucial to automate metadata in large music databases as the music industry accelerates into the digital realm.
+Put very simply the main question I am asking - “Is there a way to automate music genre classification?”. Ultimately the current norm is still to manually assign genre labels leading to slow and tedious tagging methods. Automating this procedure is crucial for large music databases and music information retrieval systems  as the music industry accelerates into the digital realm.
 
 ## Main Objectives
 My main objectives for this project were to: 
