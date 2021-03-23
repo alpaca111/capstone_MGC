@@ -25,8 +25,8 @@ Technical report: Report aimed for a technical audience. It contains a detailed 
       - [PCA]() (method_2_PCA.ipynb)
       - [Collating genres]() (folders 51 - 100) collate_genre_meta_into_df_51_100.ipynb
    - 4.0 : EDA
-      - [SS]() (EDA_1_SS.ipynb)
-      - [PCA]() (EDA_2_PCA.ipynb)
+      - [SS](https://github.com/alpaca111/capstone_MGC/blob/main/EDA_1_SS.ipynb)
+      - [PCA](https://github.com/alpaca111/capstone_MGC/blob/main/EDA_2_PCA.ipynb)
    - 5.0 : Modelling
       - [SS]() (modelling_1_SS.ipynb)
       - [PCA]() (modelling_2_PCA.ipynb)
@@ -71,7 +71,7 @@ Some of the brief data analysis of classes and particular features shown here :
 <img src="https://user-images.githubusercontent.com/74214807/112045733-782daf00-8b4b-11eb-9822-fda8ff104ef9.png" width="566" height="308" />
 <img src="https://user-images.githubusercontent.com/74214807/112045710-7368fb00-8b4b-11eb-8039-b367239e3b2e.png" width="685" height="358" />
 
-Full EDA for either method found here : [SS]() and [PCA]()
+Full EDA for either method can be found in [SS](https://github.com/alpaca111/capstone_MGC/blob/main/EDA_1_SS.ipynb) and [PCA](https://github.com/alpaca111/capstone_MGC/blob/main/EDA_2_PCA.ipynb)
 
 ## Methodology
 Given both dimensionality reduction techniques employed I have summarised the general methodologies for either approach below :
