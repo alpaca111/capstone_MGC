@@ -128,7 +128,9 @@ Labeling music into genres is arbitrary, and the line between one genre and anot
 See the requirements.txt file specific dependencies
 
  NumPy
+ <pre>
  Pandas
+ <pre>
  Matplotlib
  Seaborn
  Pickle
@@ -137,6 +139,7 @@ See the requirements.txt file specific dependencies
 
 ## License
 
+Copyright © ISMIR, 2000-2021
 
 
 
