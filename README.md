@@ -133,7 +133,7 @@ See the requirements.txt file specific dependencies
  Seaborn\
  Pickle\
  Scikit-learn\
- Librosa\
+ Librosa
 
 ## License
 Copyright © ISMIR, 2000-2021
