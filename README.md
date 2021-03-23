@@ -110,12 +110,16 @@ Random Forest  | 0.64
 SVM  | 0.61
 KNN | 0.58
 
-Regarding the most important technical indicators, we are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators.
+Regarding the most important features, we are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators. The most reaccuring important features at the top of the list were 'H', 'P', 'melspec' and 'contrast' which denote the harmonic and or percussive elements of the track as well the dynamic of the spectral range and their difference. These are some of the most intuitive criterias that one could perceive objectively to distinguish between genres. (spectral peak, valley, and their difference in each frequency subband) 
 
 ## Key learnings
-When dealing with audio features the high dimensionality of the extracted raw features limits the number of features that can be modelled on. Moreover this dimensionality requires reduction techniques to be employed limiting the variance these models can train on. Having a inaccurately tagged meta-data regarding a tracks genre will throw models off increasing false positives and negatives and reduces model accuracy. Equivilantly, having other established genres in dataset will also diminish model performance in a similar manner. The large class imbalance increases bias as machine learning classifiers tend to be more biased towards majority class, badly classifying minority classes. Music genres are subjective and derivations of each other
+When dealing with audio features the high dimensionality of the extracted raw features limits the number of features that can be modelled on. Moreover, the high dimensionality requires reduction techniques to be employed limiting the variance these models can train on. Having inaccurately tagged meta-data regarding a tracks' genre leads to a wrong representation of the data to be modelled on, increasing false positives and false negatives, overall reducing the model accuracy. Equivilantly, having other established genres in the dataset will also diminish model performance in a similar manner. The large class imbalance increases bias as machine learning classifiers tend to be more biased towards majority class, badly classifying minority classes. In the future, need to increase datapool and adjust class supports to reach a blances multiclass problem to train on.
 
+Labeling music into genres is arbitrary, and the line between one genre and another is more often than not, blurred. As if it has been formed from several ‘flavours’ of genres, with a set of sub-genres and a type of ‘style’. Genre classification can be quite subjective and not so simple as classifying a colour, with a certain measurable wavelength. However, there are perceptual criteria that are related to instrumentation, structure of the rhythm, harmonics and texture of the music that can play a role in characterising a particular genre. Methods for automated genre classification would add value to many music information retrival systems, music apps and music streaming platforms of which many are still manually labelled.
 
+## Dependencies
+
+## License
 
 
 
