@@ -110,7 +110,11 @@ Random Forest  | 0.64
 SVM  | 0.61
 KNN | 0.58
 
-We are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators. The most reaccuring important features at the top of the list were 'H', 'P', 'melspec' and 'contrast' which denote the harmonic and or percussive elements of the track as well the dynamic of the spectral range and their difference. These are some of the most intuitive criterias that one could perceive objectively to distinguish between genres. (spectral peak, valley, and their difference in each frequency subband) 
+We are able to identify a handful of the most important ones but not to a highly significant degree to have them stand out from the other indicators. The most reaccuring important features at the top of the list were 'H', 'P', 'melspec' and 'contrast' which denote the harmonic and or percussive elements of the track as well the dynamic of the spectral range and their difference. These are some of the most intuitive criterias that one could perceive objectively to distinguish between genres. (spectral peak, valley, and their difference in each frequency subband)
+
+As seen below these 'H', 'P' and spectral features seem to distinguish certain genres relatively well.
+
+<img src="https://user-images.githubusercontent.com/74214807/112135440-0ea2b480-8bce-11eb-99f3-769e9bdd7203.png" width="1039" height="543" />
 
 ## Key learnings
  - Audio features high dimensionality : When dealing with audio features the high dimensionality of the extracted raw features limits the number of features that can be modelled on. Moreover, the high dimensionality requires reduction techniques to be employed limiting the variance these models can train on. 
@@ -121,6 +125,16 @@ We are able to identify a handful of the most important ones but not to a highly
 Labeling music into genres is arbitrary, and the line between one genre and another is more often than not, blurred. As if it has been formed from several ‘flavours’ of genres, with a set of sub-genres and a type of ‘style’. Genre classification can be quite subjective and not so simple as classifying a colour, with a certain measurable wavelength. However, there are perceptual criteria that are related to instrumentation, structure of the rhythm, harmonics and texture of the music that can play a role in characterising a particular genre. Methods for automated genre classification would add value to many music information retrival systems, music apps and music streaming platforms of which many are still manually labelled.
 
 ## Dependencies
+
+See the requirements.txt file specific dependencies
+
+NumPy
+Pandas
+Matplotlib
+Seaborn
+Pickle
+Scikit-learn
+Librosa
 
 ## License
 
