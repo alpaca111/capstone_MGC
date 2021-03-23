@@ -12,7 +12,7 @@ Presentation slides: Used to present the project, findings, limitations and futu
 Technical report: Report aimed for a technical audience. It contains a detailed explanation of the extraction methods employed and general methodology, exploratory data analysis, preprocessing steps, modelling stage, findings,  limitations and improvements for the future.
 
 
- - [Presentation Slides](http://www.google.fr/ "Presentation Slides") : Used to present the project, findings, limitations and future improvements to a non-technical audience.
+ - [Presentation Slides](https://docs.google.com/presentation/d/1i840UWg1g6sbE-VY1FWylXPU4hfmc-Hzsy13-ouyEO0/edit?usp=sharing/ "Presentation Slides") : Used to present the project, findings, limitations and future improvements to a non-technical audience.
  
  - [Technical Report](http://www.google.fr/ "Technical Report") : Report aimed for a technical audience. It contains a detailed explanation of the extraction methods employed and general methodology, exploratory data analysis, preprocessing steps, modelling stage, findings,  limitations and improvements for the future.
  - Jupyter Notebook files (.ipynb)
