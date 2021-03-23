@@ -127,16 +127,15 @@ Labeling music into genres is arbitrary, and the line between one genre and anot
 ## Dependencies
 See the requirements.txt file specific dependencies
 
- NumPy
+ NumPy\
  Pandas\
- Matplotlib
- Seaborn
- Pickle
- Scikit-learn
- Librosa
+ Matplotlib\
+ Seaborn\
+ Pickle\
+ Scikit-learn\
+ Librosa\
 
 ## License
-
 Copyright © ISMIR, 2000-2021
 
 
