@@ -16,25 +16,25 @@ Technical report: Report aimed for a technical audience. It contains a detailed 
  
  - [Technical Report](http://www.google.fr/ "Technical Report") : Report aimed for a technical audience. It contains a detailed explanation of the extraction methods employed and general methodology, exploratory data analysis, preprocessing steps, modelling stage, findings,  limitations and improvements for the future.
  - Jupyter Notebook files (.ipynb)
-   - 1.0 : [Dataset Inspection]()  (dataset_meta_data_inspection.ipynb)
+   - 1.0 : [Dataset Inspection](https://github.com/alpaca111/capstone_MGC/blob/main/dataset_meta_data_inspection.ipynb)
    - 2.0 : Features
-     - [Feature inspection & Librosa]() (feature_inspection_librosa.ipynb)
-     - [Feature extraction]() (ATS_feature_extraction.ipynb)
+     - [Feature inspection & Librosa](https://github.com/alpaca111/capstone_MGC/blob/main/feature_inspection_librosa.ipynb)
+     - [Feature extraction](https://github.com/alpaca111/capstone_MGC/blob/main/ATS_feature_extraction.ipynb)
    - 3.0 : Methodology
-      - [SS]() (method_1_SS.ipynb)
-      - [PCA]() (method_2_PCA.ipynb)
-      - [Collating genres]() (folders 51 - 100) collate_genre_meta_into_df_51_100.ipynb
+      - [SS](https://github.com/alpaca111/capstone_MGC/blob/main/method_1_SS.ipynb)
+      - [PCA](https://github.com/alpaca111/capstone_MGC/blob/main/method_2_PCA.ipynb)
+      - [Collating genres](https://github.com/alpaca111/capstone_MGC/blob/main/collate_genre_meta_into_df_51_100.ipynb) (folders 51 - 100)
    - 4.0 : EDA
       - [SS](https://github.com/alpaca111/capstone_MGC/blob/main/EDA_1_SS.ipynb)
       - [PCA](https://github.com/alpaca111/capstone_MGC/blob/main/EDA_2_PCA.ipynb)
    - 5.0 : Modelling
-      - [SS]() (modelling_1_SS.ipynb)
-      - [PCA]() (modelling_2_PCA.ipynb)
-   - 6.0 : [Evaluation (SS)]() (evaluation_1_SS.ipynb)
-   - 7.0 : [Further EDA (SS)]() (further_EDA_1_SS.ipynb)
+      - [SS](https://github.com/alpaca111/capstone_MGC/blob/main/modelling_1_SS.ipynb)
+      - [PCA](https://github.com/alpaca111/capstone_MGC/blob/main/modelling_2_PCA.ipynb)
+   - 6.0 : [Evaluation (SS)](https://github.com/alpaca111/capstone_MGC/blob/main/evaluation_1_SS.ipynb)
+   - 7.0 : [Further EDA (SS)](https://github.com/alpaca111/capstone_MGC/blob/main/further_EDA_1_SS.ipynb)
    - 8.0 : Unsupervised learning
-      - [SS]() (unsupervised_learning_method_1_SS.ipynb)
-      - [PCA]() (unsupervised_learning_method_2_PCA.ipynb)
+      - [SS](https://github.com/alpaca111/capstone_MGC/blob/main/unsupervised_learning_method_1_SS.ipynb)
+      - [PCA](https://github.com/alpaca111/capstone_MGC/blob/main/unsupervised_learning_method_2_PCA.ipynb)
 ## Problem statement
 Put very simply the main question I am asking - “Is there a way to automate music genre classification?”. Ultimately the current norm is still to manually assign genre labels leading to slow and tedious tagging methods. Automating this procedure is crucial for large music databases and music information retrieval systems  as the music industry accelerates into the digital realm.
 
